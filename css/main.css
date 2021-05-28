@@ -15,25 +15,24 @@
 
 
 html, body{
-  background-color: #FCFAF9;
+  background-color: #FCFAF9 !important;
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  font-family: 'Montserrat';
+  font-family: 'Montserrat' !important;
   margin: 0;
   transform: scaleX(1);
   transform-origin: right;
 }
 
 
-
-a {
+header a {
     text-decoration: none;
   }
 
 header 
 {
-  padding: 3em;
+  padding: 4em;
 }
 
 .logo{
@@ -55,29 +54,31 @@ header
     cursor: pointer;
   }
 
-section .firstpage_text{
-  padding: 4em;
+.section{
+  background: none;
+}
+
+.section .firstpage_text{
+  padding: 3em;
  /*box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;*/
 }
 
-section h1{
+.animated_title{
   font-size: 4em;
-  margin: 1em 4em auto;
+  margin:2em 0 1em 3em;
   transition: ease-in 0.2s;
   display:inline-block; 
 
 }
 
-section h1:hover{
+.animated_title:hover{
   color: #48E5C2;
   cursor: context-menu;
 
 } 
 
-section p{ 
+.section p{ 
   font-size: 1.5em;
-  margin: 1em 11em auto;
-  width: 50%;
 }  
 
 
@@ -113,6 +114,7 @@ nav ul{
 
 nav ul a{
   color:  #FCFAF9;
+  text-decoration: none;
   font-weight: bold;
   font-size: 1.4em;
 }
